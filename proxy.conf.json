@@ -1,0 +1,10 @@
+{
+  "/intercom-api": {
+    "target": "https://api.intercom.io",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/intercom-api": ""
+    }
+  }
+}
